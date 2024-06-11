@@ -141,3 +141,13 @@ hr{
 .experiencie>img{
     border-radius: 100%;
 }
+
+.experiencie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progresBar{
+    padding: 20px;
+}
