@@ -81,7 +81,6 @@ hr{
 
 .proyect{
     display: flex;
-
     width: 350px;
     height: 200px;
     background-color:#39a900 ;
@@ -140,14 +139,143 @@ hr{
 
 .experiencie>img{
     border-radius: 100%;
+    margin-bottom: 50px;
 }
 
 .experiencie{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
 }
 
-.progresBar{
-    padding: 20px;
+progress{
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 10px;
 }
+
+progress::-webkit-progress-bar{
+    background-color: #c1ff95;
+    border-radius: 10px;
+}
+
+progress::-webkit-progress-value{
+    background-color: #39a900;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 400px) and (max-width: 819px) { 
+    hr{
+        width: 90%;
+        padding: 6px;
+        background-color:#ccfea7;
+        border: 0;
+        margin-bottom: 0%;
+    }
+
+    .proyects{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proyect{
+        display: flex;
+        width: 90%;
+        height: 200px;
+        background-color:#39a900 ;
+        margin-top: 30px;
+        margin-left: 10px;
+        border-radius: 15px;
+
+    }
+
+    .text{
+        margin-top: 7%;
+    }
+
+    .text>p{
+        margin-top: 7%;
+    }
+}
+
+@media screen and (min-width: 820px) and (max-width: 1000px){
+    .text{
+        display: flex;
+        flex-direction: column;
+        margin-top: -5%;
+        justify-content: center;
+        margin-left: 23px;
+    }
+
+    hr{
+        width: 93%;
+        padding: 6px;
+        background-color:#ccfea7;
+        border: 0;
+        margin-bottom: 0%;
+    }
+
+    .proyects{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .img{
+        display: flex;
+        flex-direction: column;
+        color: #ffff;
+        margin-left: 5%;
+    }
+    #img{
+        width: 240PX;
+        height: 200px;
+        margin-top: 40px;
+        border-radius: 10px;
+    }
+
+    #textname{
+        margin-left: -20px;
+
+    }
+
+    .references{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    
+    .reference{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: solid black 4px;
+        margin-left: 10%;
+        width: 30%;
+        margin-top: 40px;
+    }
+
+    .experiencies{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .experiencie{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin:2%;
+    }
+    
+
+}
+  
+
+
