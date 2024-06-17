@@ -407,7 +407,6 @@ progress::-webkit-progress-value{
     .references{
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
         align-items: center;
         margin-bottom: 40px;
         justify-content: space-around;
@@ -419,7 +418,7 @@ progress::-webkit-progress-value{
         align-items: center;
         border: solid black 4px;
         margin-left: 3%;
-        width: 40%;
+        width: 15%;
         margin-top: 40px;
     }
     
