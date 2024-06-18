@@ -174,13 +174,19 @@ progress::-webkit-progress-value{
 }
 
 @media screen and (min-width: 300px) and (max-width: 399px) {
+    .proyects{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -10px;
+    }
+
     .proyect{
         display: flex;
         width: 260px;
         height: 265px;
         background-color:#39a900 ;
         margin-top: 30px;
-        margin-left: 20px;
         border-radius: 15px;
     }
 
@@ -209,6 +215,14 @@ progress::-webkit-progress-value{
         font-size: 20px;
         text-decoration: none;
     }
+
+    #hrFoter{
+        width: 95%;
+        padding: 6px;
+        background-color:gray;
+        border: 0;
+        margin-bottom: 0%;
+     }
 }
 
 @media screen and (min-width: 400px) and (max-width: 819px) { 
@@ -495,7 +509,7 @@ progress::-webkit-progress-value{
     }
 
     #hrFoter{
-        width: 97%;
+        width: 95%;
         padding: 20px;
         background-color:gray;
         border: 0;
