@@ -54,8 +54,6 @@ h3{
     margin-right: 5px;
     height: 50px;
     width: 50px;
-    background-color: #c1ff95;
-    border-radius: 100%;
 }
 
 #logo_proyectos{
@@ -124,6 +122,11 @@ hr{
     text-decoration: none;
 }
 
+#img_perfil{
+    width: 100px;
+    height: 100px;
+}
+
 .references{
     display: flex;
     flex-direction: column;
@@ -132,11 +135,16 @@ hr{
 
 .reference{
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    border: solid black 4px;
-    width: 75%;
-    margin-top: 20px;
+    font-size: 15px;
+    width: 350px;
+    height: 200px;
+    background-color:#478CCF;
+    color: #ffff;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 15px;
 }
 
 .experiencies{
@@ -146,8 +154,9 @@ hr{
 }
 
 .experiencie>img{
-    border-radius: 100%;
     margin-bottom: 50px;
+    width: 200px;
+    height: 200px;
 }
 
 .experiencie{
@@ -164,19 +173,19 @@ progress{
 }
 
 progress::-webkit-progress-bar{
-    background-color: #c1ff95;
+    background-color: #36C2CE;
     border-radius: 10px;
 }
 
 progress::-webkit-progress-value{
-    background-color: #39a900;
+    background-color: #F4CE14;
     border-radius: 10px;
 }
 
 #hrFoter{
    width: 96%;
    padding: 6px;
-   background-color:gray;
+   background-color:#45474B;
    border: 0;
    margin-bottom: 0%;
 }
@@ -227,7 +236,7 @@ progress::-webkit-progress-value{
     #hrFoter{
         width: 96.2%;
         padding: 6px;
-        background-color:gray;
+        background-color:#45474B;
         border: 0;
         margin-bottom: 0%;
      }
@@ -270,7 +279,7 @@ progress::-webkit-progress-value{
     #hrFoter{
         width: 97%;
         padding: 6px;
-        background-color:gray;
+        background-color:#45474B;
         border: 0;
         margin-bottom: 0%;
      }
@@ -331,12 +340,15 @@ progress::-webkit-progress-value{
     
     .reference{
         display: flex;
-        flex-direction: column;
+        justify-content: space-around;
         align-items: center;
-        border: solid black 4px;
-        margin-left: 3%;
-        width: 30%;
-        margin-top: 40px;
+        color: #ffff;
+        width: 350px;
+        height: 200px;
+        background-color:#478CCF ;
+        margin-top: 30px;
+        margin-left: 20px;
+        border-radius: 15px;
     }
 
     .experiencies{
@@ -345,6 +357,7 @@ progress::-webkit-progress-value{
         justify-content: space-between;
         flex-wrap: wrap;
         align-items: center;
+        justify-content: space-around;
     }
 
     .experiencie{
@@ -357,7 +370,7 @@ progress::-webkit-progress-value{
     #hrFoter{
         width: 97.9%;
         padding: 8px;
-        background-color:gray;
+        background-color:#45474B;
         border: 0;
         margin-bottom: 0%;
      }
@@ -417,8 +430,6 @@ progress::-webkit-progress-value{
         margin-right: 5px;
         height:8%;
         width: 8%;
-        background-color: #c1ff95;
-        border-radius: 100%;
     }
 
     #logo_proyectos{
@@ -489,22 +500,34 @@ progress::-webkit-progress-value{
         text-decoration: none;
     }
 
+    #img_perfil{
+        width: 200px;
+        height: 200px;
+    }
+
     .references{
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-bottom: 40px;
+        margin-top: 30px;
+        margin-bottom: 30px;
         justify-content: space-around;
     }
     
     .reference{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-around;
         align-items: center;
-        border: solid black 4px;
-        margin-left: 3%;
         width: 15%;
-        margin-top: 40px;
+        margin-top: 30px;
+        width: 800px;
+        height: 400px;
+        background-color:#478CCF;
+        color: #ffff;
+        font-size: 30px;
+        margin-top: 30px;
+        border-radius: 15px;
     }
     
     .experiencies{
@@ -525,7 +548,7 @@ progress::-webkit-progress-value{
     #hrFoter{
         width: 96.7%;
         padding: 20px;
-        background-color:gray;
+        background-color:#45474B;
         border: 0;
         margin-bottom: 0%;
      }
